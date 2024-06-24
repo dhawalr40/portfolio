@@ -3,7 +3,7 @@ import {BsFillMoonStarsFill}  from 'react-icons/bs';
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillGithub,
 } from "react-icons/ai";
 import Image from 'next/image';
 import kakarot from '../public/kakarot.jpg';
@@ -54,13 +54,13 @@ export default function Home() {
               are pseudo-random, which means they are generated in a 
               predictable fashion using a mathematical formula. This 
               is fine for many purposes, but it may not be random in
-               the way you expect if you're used to dice rolls and 
+               the way you expect if you&apos;re used to dice rolls and 
                lottery drawings.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
             <AiFillLinkedin/>
             <AiFillTwitterCircle/>
-            <AiFillYoutube/>
+            <AiFillGithub/>
           </div>
           {/* display pic */}
           <div className=' relative rounded-full mx-auto mt-20'>
